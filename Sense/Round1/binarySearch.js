@@ -13,5 +13,6 @@ function binarySearch(list, target) {
   }
   return false;
 }
+
 let sortedList = [1, 2, 3, 4, 5, 15, 20, 25, 100];
 console.log(binarySearch(sortedList, 20));
